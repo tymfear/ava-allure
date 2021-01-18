@@ -1,0 +1,21 @@
+{
+  "name": "allure-ava",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest":"rm -rf allure-results",
+    "test": "ava",
+    "allure:generate": "allure generate --clean",
+    "allure:serve": "allure serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.21",
+    "allure-commandline": "^2.13.8",
+    "allure-js-commons": "^2.0.0-beta.9",
+    "ava": "^3.15.0"
+  }
+}
